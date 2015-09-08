@@ -1,0 +1,294 @@
+/*
+ * General Styles
+ */
+body {
+  color: #575757;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 54px 0 0 0; }
+
+.container {
+  padding-bottom: 50px;
+  padding-top: 50px; }
+
+.title {
+  color: #ffffff;
+  font: 3.5em "Montserrat", sans-serif;
+  font-weight: bold;
+  margin: 0;
+  text-align: center; }
+
+.half-rule {
+  border-color: #397a8e;
+  width: 100px;
+  margin: 40px auto; }
+
+.modal {
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); }
+  .modal .modal-dialog {
+    height: 93%; }
+    .modal .modal-dialog .modal-header {
+      border: none;
+      margin-bottom: 0;
+      overflow: hidden; }
+      .modal .modal-dialog .modal-header h4 {
+        text-align: center;
+        margin-bottom: 0px; }
+    .modal .modal-dialog .modal-body h5 {
+      color: #575757;
+      margin: 15px 0; }
+
+.modal-backdrop {
+  height: 100%;
+  background: transparent; }
+
+/*
+ * Logos SVG
+ */
+.logo.hcm .logo-icon {
+  fill: #397a8e; }
+
+.logo.hf .logo-icon {
+  fill: #92d2c6; }
+
+.logo.af .logo-icon {
+  fill: #a8c738; }
+
+/*
+ * Top Navbar 
+ */
+.navbar {
+  background-color: #ffffff;
+  border-bottom: 4px solid #397a8e; }
+  .navbar .container {
+    padding-bottom: 0px;
+    padding-top: 0px; }
+    .navbar .container .navbar-header .navbar-brand {
+      padding: 0; }
+      .navbar .container .navbar-header .navbar-brand .hcm {
+        height: 100%;
+        max-width: 100%; }
+
+/*
+ * Home Section
+ */
+#home {
+  background-color: rgba(58, 122, 140, 0.8);
+  height: 490px;
+  position: relative;
+  text-align: center; }
+  #home .container {
+    color: #ffffff;
+    padding-bottom: 0;
+    padding-top: 25px; }
+  #home .bg-laptop {
+    background: url(../img/laptop.png) no-repeat top center;
+    background-size: 100%;
+    max-width: 570px;
+    width: 100%;
+    height: 415px;
+    margin: 0 auto;
+    text-align: center; }
+    #home .bg-laptop img {
+      margin: 0 auto;
+      max-width: 544px;
+      width: 100%; }
+
+/*
+ * featured Section
+ */
+#featured .container {
+  padding-bottom: 51px;
+  padding-top: 55px; }
+  #featured .container p {
+    text-align: center;
+    font-weight: bold; }
+  #featured .container .featured-img {
+    padding: 10px 0; }
+    #featured .container .featured-img .featured-link {
+      display: block; }
+      #featured .container .featured-img .featured-link img {
+        display: block;
+        margin: 0 auto;
+        width: 100%; }
+  #featured .container .f-elmercurio img {
+    max-width: 395px; }
+  #featured .container .f-eleconomista img {
+    max-width: 154px; }
+  #featured .container .f-cooperativa img {
+    max-width: 246px; }
+
+/*
+ * integral Section
+ */
+#integral {
+  background-color: #c15437;
+  color: #ffffff; }
+  #integral .subtitle {
+    margin-bottom: 50px; }
+  #integral .integracion {
+    position: relative; }
+    #integral .integracion .logo {
+      height: 100%;
+      max-height: 25%;
+      max-width: 25%; }
+    #integral .integracion .logo.hcm {
+      display: block;
+      margin: 0 auto 50px; }
+    #integral .integracion .logo.hf {
+      clear: both;
+      float: left; }
+    #integral .integracion .logo.af {
+      float: right; }
+    #integral .integracion .triangle {
+      width: 0px;
+      height: 0px;
+      border-style: solid;
+      border-width: 0 150px 200px 150px;
+      border-color: transparent transparent #ffffff transparent;
+      position: absolute; }
+
+/*
+ * modules Section
+ */
+#modules {
+  background-color: #ffffff;
+  text-align: center; }
+  #modules .logo {
+    max-width: 100%; }
+  #modules .subtitle {
+    margin-bottom: 30px; }
+  #modules .hfmod {
+    margin-bottom: 30px; }
+    #modules .hfmod .subtitle {
+      color: #92d2c6; }
+  #modules .afmod .subtitle {
+    color: #a8c738; }
+
+/*
+ * about Section
+ */
+#about {
+  /*background-color:$hcm-color;
+  color:#ffffff;*/
+  font-size: 1.2em; }
+
+/*
+ * testimonial Section
+ */
+#testimonial {
+  background-color: #e2e2e2; }
+  #testimonial .fa, #testimonial .quote {
+    color: #9b4b63; }
+  #testimonial .avatar-testifier {
+    display: block;
+    margin: 0 auto 30px;
+    max-width: 50%; }
+  #testimonial .quote {
+    font-size: 1.3em; }
+  #testimonial .testifier {
+    font-weight: normal; }
+
+/*
+ * faqs Section
+ */
+#faqs .question {
+  font-size: 1.2em;
+  font-weight: bold; }
+
+/*
+ * contact Section
+ */
+#contact {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-top: 1px solid #ccc;
+  color: #ffffff;
+  position: relative; }
+  #contact .map {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%; }
+    #contact .map iframe {
+      width: 100%;
+      height: 100%; }
+
+#contact:after {
+  background: url(../img/map-hcm.jpg) center center no-repeat;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1; }
+
+footer {
+  background-color: #397a8e;
+  color: #ffffff; }
+  footer .container {
+    padding-bottom: 0;
+    padding-top: 10px; }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .navbar .nav {
+    float: right; }
+
+  /*
+   * Home Section
+   */
+  #home:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    display: block;
+    background-image: url("/img/bg-intro.jpg");
+    background-position: center top;
+    background-size: 100%;
+    width: 100%;
+    height: 595px;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px); }
+
+  #home {
+    background: rgba(58, 122, 140, 0.8) url(../img/bg-icons.png) no-repeat center center;
+    height: 600px;
+    padding-top: 50px; }
+    #home .bg-laptop {
+      max-width: 717px; }
+
+  #featured .container {
+    padding-bottom: 51px;
+    padding-top: 55px; }
+    #featured .container p {
+      text-align: center;
+      font-weight: bold; }
+    #featured .container .featured-img {
+      padding: 10px 0; }
+
+  /*
+   * modules Section
+   */
+  #modules .logo {
+    max-width: 50%;
+    max-height: 130px; }
+
+  #testimonial .fa, #testimonial .quote {
+    color: #9b4b63; }
+  #testimonial .avatar-testifier {
+    float: left;
+    margin-right: 30px;
+    width: 15%;
+    max-width: 120px; } }
